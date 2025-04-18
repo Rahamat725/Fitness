@@ -1,5 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+:root{
+    --primaryColor:rgb(230, 83, 60);
+    --largeText:rgb(255, 255, 255);
+    --smallText:rgba(255, 255, 255, 0.5);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
+    background: rgb(17, 17, 17);
     font-family: "Inter", sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header Section Style */
+header{
+    /* max-width: 954px; */
+    max-width: 1169px;
+    /* border: 1px solid green; */
+    margin: auto;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+}
+.header-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--primaryColor);
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+   gap: 30px;
+}
+.nav-items a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--largeText);
+}
+.select-default{
+    background-color: var(--primaryColor);
+    padding: 8px 20px;
+    border-radius: 34px;
+}
+.menu-bars{
+    color: var(--largeText);
+    font-size: 24px;
+    display: none;
 }
