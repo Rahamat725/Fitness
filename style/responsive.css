@@ -1,8 +1,121 @@
 @media screen and (max-width:576px) {
+   
     .nav-items{
         display: none;
     }
     .menu-bars{
         display: block;
     }
+
+    .banner-content{
+        flex-direction: column;
+        /* align-items: flex-start; */
+        gap: 50px;
+    }
+
+    .banner-text-content{
+        width: 90%;
+        margin: auto;
+    }
+
+    .banner-title{
+        width: 70%;
+        font-size: 34px;
+        line-height: 50px;
+    }
+    .banner-description{
+        width: 70%;
+    }
+
+    #banner-inner-text{
+        font-family: "Fleur De Leah", cursive;
+        font-weight: 400;
+        font-size: 80px;
+    }
+    .banner-btn-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .btn-download, .btn-primary{
+        padding: 12px 32px;
+    }
+
+
+    .banner-img-content{
+        justify-content: center;
+    }
+    .workout-videos-2{
+       bottom: 100px;
+       left: -80px;
+    }
+}
+
+/* Responsive for Tab */
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    
+    .banner-content{
+        flex-direction: column;
+        /* align-items: flex-start; */
+        gap: 50px;
+    }
+
+    .banner-text-content{
+        width: 65%;
+        margin: auto;
+    }
+
+    .banner-title{
+        width: 90%;
+        
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .banner-description{
+        width: 100%;
+    }
+
+    #banner-inner-text{
+        font-family: "Fleur De Leah", cursive;
+        font-weight: 400;
+        font-size: 80px;
+    }
+    .banner-btn-content{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .btn-download, .btn-primary{
+        padding: 12px 32px;
+    }
+
+
+    .banner-img-content{
+        justify-content: center;
+    }
+    .workout-videos-2{
+       bottom: 100px;
+       left: -80px;
+    }
+}
+
+/* This Responsive for 769px to 1168px */
+
+@media screen and (min-width:769px) and (max-width:1168px) {
+
+    .banner-btn-content{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .banner-img-content{
+    justify-content: center;
+}   
+ .workout-videos{
+        right:50px;
+    }
+
+    .workout-videos-2{
+        bottom: 100px;
+        left: 50px;
+     }
+    
 }
