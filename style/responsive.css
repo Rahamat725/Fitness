@@ -48,6 +48,30 @@
        bottom: 100px;
        left: -80px;
     }
+
+/* Change your Habit Section */
+
+    .change-habit-text-content{
+        width: 95%;
+    }
+    .section-title{
+        font-size: 28px;
+        margin-bottom: 14px;
+    }
+    .change-habit-img-container{
+        
+        flex-direction: column;
+    }
+   
+   .img-box>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .img-description{
+    width: 70%;
+    margin: auto;
+   }
 }
 
 /* Responsive for Tab */
@@ -96,6 +120,30 @@
        bottom: 100px;
        left: -80px;
     }
+
+     /* Change your Habit Section */
+
+    
+     .section-title{
+        font-size: 36px;
+        margin-bottom: 10px;
+       }
+     .change-habit-img-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+     }
+
+     .img-box>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .img-description{
+        width: 70%;
+        margin: auto;
+       }
+       
+
 }
 
 /* This Responsive for 769px to 1168px */
@@ -117,5 +165,9 @@
         bottom: 100px;
         left: 50px;
      }
+
+   .section-title{
+    margin-bottom: 10px;
+   }
     
 }
