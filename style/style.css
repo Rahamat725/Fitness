@@ -34,6 +34,7 @@ body{
     font-size: 42px;
     font-weight: 900;
     color: var(--largeText);
+    margin-bottom: 14px;
 }
 .section-description{
     font-size: 14px;
@@ -239,5 +240,35 @@ main{
     color: var(--smallText);
     text-align: center;
     margin-top: 6px;
+}
+
+/* Run Extra Mile Section */
+.run-extra-mile-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(34, 34, 34);
+    margin-bottom: 100px;
+    border-radius: 18px;
+}
+
+.run-extra-text-content{
+    width: 30%;
+    margin: 30px 0 30px 30px;
+}
+
+.run-extra-img-content{
+    width: 30%;
+    margin: 20px 30px;
+}
+.run-extra-img-content img{
+    width: 100%;
+    border-radius: 18px;
+}
+
+.run-extra-mile-btn-content{
+    margin-top: 20px;
 }
 
