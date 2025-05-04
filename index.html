@@ -138,6 +138,69 @@
                  </div>
                 </div>
              </section>
+
+             <!-- BMI Calculator -->
+              <section id="bmi-calculator-section">
+                <h2 class="section-title">BMI Calculator</h2>
+                <p class="section-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                
+                <div class="bmi-calculator-container">
+                    <div class="bmi-chart">
+                        <h3>BMI Calculator Chart</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>BMI</th>
+                                    <th>Weight Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Below 18.5</td>
+                                    <td>Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td>18.5 - 24.9</td>
+                                    <td>Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td>25.0 - 29.9</td>
+                                    <td>Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td>30.0 - and Above</td>
+                                    <td>Obese</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="bmi-calculator">
+                        <h3>Calculate your BMI</h3>
+                        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+
+                        <form >
+                            <input type="text" placeholder="Height/cm">
+                            <input type="text" placeholder="Weight/kg"><br>
+                            <input type="text" placeholder="Age">
+                            <input class="gender" list="gender" name="gender" placeholder="Gender">
+                            <datalist id="gender">
+                                <option value="Male"></option>
+                                <option value="Female"></option>
+                            </datalist><br>
+                            <input class="factor" list="factor" name="factor" placeholder="Select an activity factor">
+                            <datalist id="factor">
+                                <option value="Sedentary"></option>
+                                <option value="Lightly active "></option>
+                                <option value="Moderately active"></option>
+                                <option value="Very active "></option>
+                                <option value="Super active"></option>
+                            </datalist>
+                            <div class="calculate"><button class="primary-btn">Calculate</button></div>
+                        </form>
+                    </div>
+                </div>
+
+              </section>
     </main>
     <footer></footer>
 </body>

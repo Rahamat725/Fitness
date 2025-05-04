@@ -165,6 +165,33 @@
     width: 90%;
 }
 
+/* BMI CALCULATOR */
+#bmi-calculator-section> h2,p{
+    width: 95%;
+    
+    margin:auto;
+    
+}
+#bmi-calculator-section>p{
+    width: 95%;
+}
+.bmi-calculator-container{
+    flex-direction: column;
+    gap: 50px;
+}
+.bmi-calculator{
+    width: 95%;
+    margin: auto;
+    
+}
+.bmi-calculator input[type="text"], .gender{
+    width: 45%;
+    
+}
+.bmi-calculator .factor{
+    width: 92%;
+}
+
 }
 
 /* Responsive for Tab */
@@ -267,6 +294,10 @@
     width: 95%;
     margin: auto;
 }
+.Exercise-section>p{
+    width: 80%;
+    margin-left: 10px;
+}
 
 .training-img-container{
     display: grid;
@@ -327,6 +358,39 @@
     width: 90%;
 }
 
+/* BMI CALCULATOR */
+#bmi-calculator-section> h2,p{
+    width: 95%;
+    
+    margin:auto;
+    
+}
+#bmi-calculator-section>p{
+    width: 80%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.bmi-calculator-container{
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+}
+.bmi-calculator{
+    width: 95%;
+    /* margin: auto; */
+    
+}
+.bmi-calculator>p{
+    margin-left: 10px;
+}
+.bmi-calculator input[type="text"], .gender{
+    width: 45%;
+    
+}
+.bmi-calculator .factor{
+    width: 91%;
+}
+
 }
 
 /* This Responsive for 769px to 1168px */
@@ -356,6 +420,41 @@
    .Exercise-section{
     width: 95%;
     margin: auto;
+}
+.Exercise-section>p{
+    margin-left: 10px;
+}
+
+
+/* BMI CALCULATOR */
+#bmi-calculator-section> h2,p{
+    width: 95%;
+    
+    margin:auto;
+    
+}
+#bmi-calculator-section>p{
+    width: 80%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.bmi-calculator-container{
+    align-items: center;
+}
+.bmi-calculator{
+    width: 50%;
+    /* margin: auto; */
+    
+}
+.bmi-calculator>p{
+    margin-left: 10px;
+}
+.bmi-calculator input[type="text"], .gender{
+    width: 45%;
+    
+}
+.bmi-calculator .factor{
+    width: 91%;
 }
     
 }
