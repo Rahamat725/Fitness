@@ -420,7 +420,7 @@ main{
     margin-top: 50px;
     
 }
-#bmi-calculator-section>p{
+#bmi-calculator-section .bmi-description{
      width: 50%;
 }
 .bmi-calculator-container{
@@ -485,3 +485,71 @@ main{
 .calculate{
     margin-top: 30px;
 }
+
+
+/*    <!-- Meet Our Team --> */
+
+
+
+/* Footer Section */
+footer{
+    /* background: rgba(255, 255, 255, 0.1); */
+    background-color: rgb(26, 26, 26);
+    padding: 50px 150px;
+    margin-top: 50px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-title-content{
+    flex: 1;
+}
+
+.footer-title{
+    font-size: 63px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: var(--primaryColor);
+}
+
+.footer-title-description{
+    color: var(--smallText);
+}
+
+.footer-service-container{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-column-1{}
+
+.footer-column-title{
+    font-size: 28px;
+    color: var(--largeText);
+    margin-bottom: 30px;
+}
+
+.footer-services{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-services a{
+    text-decoration: none;
+    color: var(--smallText);
+}
+.footer-hr{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.footer-reserve{
+    text-align: center;
+    font-size: 18px;
+    color: var(--smallText);
+}
+
+

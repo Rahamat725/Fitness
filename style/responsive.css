@@ -166,23 +166,38 @@
 }
 
 /* BMI CALCULATOR */
-#bmi-calculator-section> h2,p{
-    width: 95%;
-    
-    margin:auto;
+#bmi-calculator-section .bmi-title, .bmi-description{
+    /* width: 100%; */
+    padding: 0 30px;
+
+    /* margin:auto; */
     
 }
-#bmi-calculator-section>p{
-    width: 95%;
+.bmi-title{
+    text-align: center;
+}
+#bmi-calculator-section .bmi-description{
+    width: 100%;
+    margin-top: 14px;
 }
 .bmi-calculator-container{
     flex-direction: column;
     gap: 50px;
 }
+.bmi-chart .bmi-chart-title{
+    text-align: center;
+}
 .bmi-calculator{
     width: 95%;
     margin: auto;
     
+}
+.bmi-calculator-title{
+    text-align: center;
+}
+.bmi-calculator-description{
+    /* text-align: center; */
+    text-align: justify;
 }
 .bmi-calculator input[type="text"], .gender{
     width: 45%;
@@ -190,6 +205,26 @@
 }
 .bmi-calculator .factor{
     width: 92%;
+}
+
+
+/* Meet Out Team */
+
+
+/* Footer Section */
+
+footer{
+    padding: 20px 50px;
+}
+.footer-container{
+    flex-direction: column;
+    
+}
+.footer-service-container{
+    flex-direction: column;
+}
+.footer-column-1, .footer-column-2{
+    margin-top: 30px;
 }
 
 }
@@ -390,6 +425,34 @@
 .bmi-calculator .factor{
     width: 91%;
 }
+
+/* Meet Out Team */
+
+
+/* Footer Section */
+
+footer{
+    padding: 20px 50px;
+}
+.footer-container{
+    flex-direction: column;
+    
+}
+
+.footer-title-content{
+    width: 70%;
+    /* margin: auto; */
+}
+.footer-service-container{
+    /* flex-direction: column; */
+    gap: 50px;
+    justify-content: flex-start;
+    /* justify-content: space-around; */
+}
+.footer-column-1, .footer-column-2{
+    margin-top: 30px;
+}
+
 
 }
 
