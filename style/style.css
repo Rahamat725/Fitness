@@ -489,6 +489,53 @@ main{
 
 /*    <!-- Meet Our Team --> */
 
+.meet-our-team{
+    margin-top: 50px;
+}
+.meet-our-title, .meet-our-des{
+    text-align: center;
+}
+
+.meet-our-team-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    justify-items: center;
+    border-radius: 16px;
+
+    background: rgb(26, 26, 26);
+    padding: 25px 10px;
+}
+
+.trainer-img-box{
+    position: relative;
+    object-fit: contain;
+
+}
+.trainer-img-box img{
+    width: 326px;
+    height: 272px;
+    border-radius: 16px;
+}
+
+.trainer-name{
+    position: absolute;
+    left: 20px;
+    bottom: 60px;
+    font-size: 16px;
+    font-size: 600;
+    color: var(--largeText);
+}
+
+.profession{
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--smallText);
+}
 
 
 /* Footer Section */
@@ -525,7 +572,7 @@ footer{
     justify-content: space-evenly;
 }
 
-.footer-column-1{}
+
 
 .footer-column-title{
     font-size: 28px;

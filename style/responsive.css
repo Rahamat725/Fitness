@@ -210,6 +210,17 @@
 
 /* Meet Out Team */
 
+.meet-our-team-container{
+    grid-template-columns: 1fr;
+    width: 85%;
+    margin: 50px auto;
+    padding: 20px 0;
+}
+.trainer-img-box img{
+    width: 313px;
+    height: 272px;
+    border-radius: 16px;
+}
 
 /* Footer Section */
 
@@ -428,6 +439,20 @@ footer{
 
 /* Meet Out Team */
 
+.meet-our-des{
+    width: 80%;
+    margin: auto;
+}
+.meet-our-team-container{
+    width: 90%;
+    margin: 50px auto;
+}
+.trainer-img-box img{
+    width: 199px;
+    height: 272px;
+    border-radius: 16px;
+}
+
 
 /* Footer Section */
 
@@ -519,5 +544,18 @@ footer{
 .bmi-calculator .factor{
     width: 91%;
 }
-    
+   
+/* Meet Our Team */
+
+.meet-our-team-container{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.trainer-img-box img{
+    width: 250px;
+    height: 272px;
+    border-radius: 16px;
+}
+
 }
